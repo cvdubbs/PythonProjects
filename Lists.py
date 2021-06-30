@@ -111,6 +111,65 @@ for i in range(len(L)):
 
 print(L)
 
+# Iterate through nested list
+L = [[1, 2, 3],[4, 5, 6],[7, 8, 9]]   
+for list in L:
+    for number in list:
+        print(number, end=' ')
+
+# Slice a list with steps. 2 is every other
+L = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i']
+print(L[2:7:2])
+
+# Slice from begining
+print(L[:3])
+
+# Slicate to ending
+print(L[6:])
+
+# Reverse a list
+print(L[::-1])
+
+# Modify multiple list items
+L = ['a', 'b', 'c', 'd', 'e']
+L[1:4] = [1, 2, 3]
+print(L)
+
+# Replace multiple elements in place of a single element
+L = ['a', 'b', 'c', 'd', 'e']
+L[1:2] = [1, 2, 3]
+print(L)
+
+# Insert at the start
+L = ['a', 'b', 'c']
+L[:0] = [1, 2, 3]
+print(L)
+
+# Insert at the end
+L = ['a', 'b', 'c']
+L[len(L):] = [1, 2, 3]
+print(L)
+
+# Insert in the middle
+L = ['a', 'b', 'c']
+L[1:1] = [1, 2, 3]
+print(L)
+
+# Delete multiple list items
+L = ['a', 'b', 'c', 'd', 'e']
+L[1:5] = []
+print(L)
+
+# Delete multiple list items using del
+L = ['a', 'b', 'c', 'd', 'e']
+del L[1:5]
+print(L)
+
+# Clone or Copy List
+L1 = ['a', 'b', 'c', 'd', 'e']
+L2 = L1[:]
+print(L2)
+
 # Python List Methods
 # Python has a set of built-in methods that you can call on list objects.
 
@@ -126,7 +185,6 @@ print(L)
 # index()	Returns the index of first instance of the specified item
 # reverse()	Reverses the items of the list in place
 # sort()	Sorts the items of the list in place
-
 # Built-in Functions with List
 # Python also has a set of built-in functions that you can use with list objects.
 
