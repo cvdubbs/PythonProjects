@@ -38,4 +38,3 @@ print(c)
 
 print(d)
 # Prints cyan
-
