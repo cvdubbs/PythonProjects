@@ -38,3 +38,13 @@ print(c)
 
 print(d)
 # Prints cyan
+
+# Split an email address into a user name and a domain
+addr = 'bob@python.org'
+user, domain = addr.split('@')
+
+print(user)
+# Prints bob
+
+print(domain)
+# Prints python.org
