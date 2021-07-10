@@ -211,11 +211,11 @@ print(S)
 # rsplit()	Splits a string into a list of substrings
 # rstrip()	Strips characters from the right end of a string
 # split()	Splits a string into a list of substrings
-splitlines()	Splits the string at line breaks
-startswith()	Determines whether the string starts with a given substring
-strip()	Strips leading and trailing characters
-swapcase()	Swaps case of all characters in a string
-title()	Converts string to “Title Case”
-translate()	Returns a translated string
-upper()	Converts all characters in a string to uppercase
-zfill()	Pads a string on the le with zeros
+# splitlines()	Splits the string at line breaks
+# startswith()	Determines whether the string starts with a given substring
+# strip()	Strips leading and trailing characters
+# swapcase()	Swaps case of all characters in a string
+# title()	Converts string to “Title Case”
+# translate()	Returns a translated string
+# upper()	Converts all characters in a string to uppercase
+# zfill()	Pads a string on the le with zeros
